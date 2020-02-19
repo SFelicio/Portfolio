@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa';
+}
+.homepage{
+    width: 100%;
+    max-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero{
+    background-image: linear-gradient(to bottom right, rgba(24, 21, 24, 0.93), rgba(148, 143, 148, 0.4)), url('hero.jpg');;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.intro {
+    width: 90%;
+    margin: 50px;
+    max-height: 100vh;
+}
+.name{
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 80px;
+    font-weight: 900;
+}
+.job-title{
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+.job-sub-title{
+    font-size: 1.8rem;
+}
+.job-sub-title-2{
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+}
+.intro p{
+    font-size: 14px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+}
+.button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right: 50px;
+}
+.button a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px #000 solid;
+    padding: 10px 20px;
+    color: #000;
+    text-align: center;
+    margin: 10px;
+}
+.button a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.social-media ul{
+    display: inline-flex;
+}
+.social-media li{
+    padding: 10px;
+    list-style: none;
+    margin-top: 30px;
+}
+.social-media a{
+    text-decoration: none;
+    font-size: 10px;
+    color: #000;
+    font-weight: bold;
+}
+.social-media a:hover{
+    opacity: .7;
+}
+
+/*PORTFOLIO*/
+#portfolio {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#portfolio .container,
+#cv .container{
+    width: 80%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+}
+#portfolio .nav,
+#cv .nav{
+    padding-top: 20px;
+    position: absolute;
+    right: 100px;
+}
+#portfolio .nav a,
+#cv .nav a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+#portfolio .nav a:hover,
+#cv .nav a:hover{
+    font-weight: bold;
+    color: palevioletred;
+}
+.name-title{
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.webdesign .title,
+.graphics .title{
+    font-size: 2.5rem;
+    padding-top:  100px;
+    text-transform: uppercase;
+}
+.webdesign .content p,
+.webdev p,
+.graphics .content p{
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+.web-project,
+.web-development{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.web-project li,
+.web-development li{
+    list-style: none;
+}
+.web-project img,
+.web-development img{
+    height: 300px;
+    width: 300px;
+}
+.web-project p{
+    font-size: 10px;
+}
+.web-project p a, 
+.web-project-2 p a,
+.web-development p a{
+    font-size: 10px;
+    text-decoration: none;
+    color: #000;
+}
+.web-project p a:hover,
+.web-project-2 p a:hover,
+.web-development p a:hover{
+    color: palevioletred;
+}
+.web-project-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.web-project-2 img{
+    width: 400px;
+    height: 200px;
+    align-content: center;
+    margin: 0 auto;
+}
+.web-development{
+    padding-top: 30px;
+}
+.webdev .underline{
+    height: 3px;
+    width: 50px;
+    background-color: #000;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+.graphics .graphic-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.graphic-list li{
+    list-style: none;
+}
+.graphic-list img{
+    width: 240px;
+    height: 180px;
+}
+.top{
+    position: absolute;
+    right: 50px;
+}
+.top a, 
+#cv .download-button a{
+    font-size: 12px;
+    text-decoration: none;
+    padding: 40px;
+    padding-top: 40px;
+    font-weight: bold;
+    color: #000;
+}
+.top a:hover,
+#cv .download-button a:hover{
+    color: palevioletred;
+}
